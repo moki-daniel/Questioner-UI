@@ -30,3 +30,20 @@ header
     color: rgb(255,0,0);
 
 }
+.logo
+{
+    height: 200px;
+    width: 12%;
+    text-align: left;
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: rgb(1,1, 245)
+}
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
