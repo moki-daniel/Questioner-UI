@@ -20,3 +20,13 @@ header
     background-position: center;
     height:100vh;
 }
+.header-text-box
+{
+    position: absolute;
+    width: 1200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255,0,0);
+
+}
