@@ -271,3 +271,12 @@ input:focus
 {
     background: #fff;
 }
+.user-header
+{
+    width: 1300px;
+    height: 80px;
+    background: #0000ff;
+    color: #fff;
+    text-align: center;
+
+}
