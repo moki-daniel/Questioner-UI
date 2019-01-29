@@ -271,3 +271,57 @@ input:focus
 {
     background: #fff;
 }
+/*-----------------------------------------------*/
+/*User and Admin Dashboard*/
+/*-----------------------------------------------*/
+.user-header,
+.admin-header
+{
+    width: 1300px;
+    height: 80px;
+    background: #0000ff;
+    color: #fff;
+    text-align: center;
+
+}
+.sidebar
+{
+    width: 300px;
+    height: 400px;
+    background: rgb(135, 206,23);;
+    float: left;
+    margin-right: 100px;
+}
+.data
+{
+    height: 700px;
+    background:#faf9f9;
+    text-align: left;
+    font: 50px;
+    padding:50px;
+    margin-top: 0px;
+}
+.datah3
+{
+    text-align: left;
+    margin-top: 20px;
+}
+.datap
+{
+    color: #000000;
+}
+.userphoto
+{
+    background: #fff;
+    border-radius: 500px;
+}
+.sidebar ul li
+{
+    padding: 15px;
+    border-bottom: 2px #808080;
+}
+.sidebar ul li:hover
+{
+    border-bottom: 2px #ff4500;
+    color:#fff;
+}
