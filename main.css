@@ -1,0 +1,228 @@
+/*-----------------------------------------------*/
+/*Basic page setup*/
+/*-----------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    background-color: #fff;
+    color:#fff;
+    font-family: 'Lato','Arial','sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeelegibility;
+}
+/*-----------------------------------------------*/
+/*Components reused frequesntly*/
+/*-----------------------------------------------*/
+.row
+{
+max-width: 1140px;
+margin: 0 auto;
+}
+section
+{
+padding: 60 px 0;
+}
+/*-----------------------------------------------*/
+/*Headings h1, h2, and h3*/
+/*-----------------------------------------------*/
+
+h1, h2, h3
+{
+    font-weight: 300%;
+    text-transform: uppercase;
+
+}
+h1
+{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: rgb(255, 0, 0);
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+h2
+{
+    font-size: 160%;
+    word-spacing: 3px;
+    text-align: center;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    color: #0000ff;
+}
+h2:after
+{
+    display: block;
+    height: 2px;
+    color:#0000ff;
+    content:"";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+h3
+{
+    font-size: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    color:#0000ff;
+}
+/*-----------------------------------------------*/
+/*Paragraphs*/
+/*-----------------------------------------------*/
+.questioner-intro
+{
+    line-height: 120%;
+    width: 80%;
+    margin-left: 15%;
+}
+.ft p
+{
+    line-height: 120%;
+    width: 80%;
+    margin-left: 15%;
+    padding: 1%;
+    text-align: center;
+    font-size: 100%;
+    color: #000000;
+}
+/*-----------------------------------------------*/
+/*Buttons for the header section*/
+/*-----------------------------------------------*/
+.btn:hover,
+.btn:active
+{
+    margin-top: 2px;
+    background-color: #FF4500;
+}￼
+.btn-one:hover,
+.btn-one:active
+{
+border: 3px solid rgb(121,35,3);
+}
+.btn:link,
+.btn:visited,
+{
+    display: inline-block;
+    padding: 10 30px;
+    font-weight: 300px;
+    text-decoration: none;
+    border-radius: 350px;
+    color: #008000;
+}
+.btn-one:link,
+.btn-one:visited
+{
+    background-color:#FF4500;
+    border: 3px solid rgb(121, 35, 3);
+    margin-right: 10px;
+}
+.btn-two
+{
+    border: 3px, solid rgb(121,35,3);
+}
+.btn-two:hover,
+.btn-two:active
+{
+    border: 3px, solid rgb(121,35,3);
+    color: #008000;
+}
+header
+{
+    background-image: url(questioner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+.header-text-box
+{
+    position: absolute;
+    width: 1200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255,0,0);
+
+}
+/*-----------------------------------------------*/
+/*Logo, Main-Nav and the list*/
+/*-----------------------------------------------*/
+.logo
+{
+    height: 200px;
+    width: 12%;
+    text-align: left;
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: rgb(1,1, 245)
+}
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline-block;
+    margin-left: 40px;
+}
+.main-nav li a:link,
+.main-nav li a:visited
+{
+    padding: 6px 0;
+    color: rgb(1, 1, 245);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+}
+.main-nav li a:hover,
+.main-nav li a:active
+{
+    border-bottom: 2px solid rgb(245, 1, 13)
+}
+
+/*-----------------------------------------------*/
+/*Footer Section*/
+/*-----------------------------------------------*/
+
+footer
+{
+    background-color: rgb(245, 238, 238);
+    clear: both;
+}
+
+footer *
+    {
+        display: inline;
+    }
+footer h4
+{
+    padding: 6px 0;
+    color: #ff0095;
+    font-size: 100%;
+    margin-bottom: 10px;
+    margin-left: 4%;
+    display: inline-block;
+}
+.footer-nav,
+.sociallinks
+{
+    list-style: none;
+    margin-left: 15%;
+    color: #0000ff;
+    
+}
+
+
+ 
