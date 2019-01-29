@@ -194,7 +194,13 @@ header
 footer
 {
     background-color: rgb(245, 238, 238);
+    clear: both;
 }
+
+footer *
+    {
+        display: inline;
+    }
 footer h4
 {
     padding: 6px 0;
@@ -202,6 +208,7 @@ footer h4
     font-size: 100%;
     margin-bottom: 10px;
     margin-left: 4%;
+    display: inline-block;
 }
 .footer-nav,
 .sociallinks
@@ -209,5 +216,8 @@ footer h4
     list-style: none;
     margin-left: 15%;
     color: #0000ff;
-    display: inline-block;
+    
 }
+
+
+ 
