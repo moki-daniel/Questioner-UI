@@ -271,6 +271,9 @@ input:focus
 {
     background: #fff;
 }
+/*-----------------------------------------------*/
+/*User and Admin Dashboard*/
+/*-----------------------------------------------*/
 .user-header,
 .admin-header
 {
