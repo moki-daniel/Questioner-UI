@@ -287,4 +287,12 @@ input:focus
     background: #9acd32;
     float: left;
     margin-right: 100px;
+}.data
+{
+    height: 700px;
+    background: rgb(135, 206,23);
+    text-align: left;
+    font: 50px;
+    padding:50px;
+    margin-top: 0px;
 }
