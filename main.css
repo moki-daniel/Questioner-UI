@@ -42,7 +42,22 @@ h1
     word-spacing: 4px;
     letter-spacing: 1px;
     text-align: center;
-
+}
+.questioner-intro
+{
+    line-height: 120%;
+    width: 80%;
+    margin-left: 15%;
+}
+.ft p
+{
+    line-height: 120%;
+    width: 80%;
+    margin-left: 15%;
+    padding: 1%;
+    text-align: center;
+    font-size: 100%;
+    color: #000000;
 }
 /*-----------------------------------------------*/
 /*Buttons for the header section*/
