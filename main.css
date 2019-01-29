@@ -280,3 +280,11 @@ input:focus
     text-align: center;
 
 }
+.sidebar
+{
+    width: 300px;
+    height: 400px;
+    background: #9acd32;
+    float: left;
+    margin-right: 100px;
+}
