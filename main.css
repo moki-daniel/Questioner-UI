@@ -271,7 +271,8 @@ input:focus
 {
     background: #fff;
 }
-.user-header
+.user-header,
+.admin-header
 {
     width: 1300px;
     height: 80px;
