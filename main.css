@@ -305,3 +305,18 @@ input:focus
 {
     color: #000000;
 }
+.userphoto
+{
+    background: #fff;
+    border-radius: 500px;
+}
+.sidebar ul li
+{
+    padding: 15px;
+    border-bottom: 2px #808080;
+}
+.sidebar ul li:hover
+{
+    border-bottom: 2px #ff4500;
+    color:#fff;
+}
