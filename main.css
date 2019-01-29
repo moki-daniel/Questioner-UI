@@ -223,6 +223,14 @@ footer h4
     color: #0000ff;
     
 }
-
-
- 
+.signup-form
+{
+    margin: 20px auto;
+    width: 320px;
+    color: hsl(239, 97% 47%);
+}
+input
+{
+    padding: 10px;
+    font-size: inherit;
+}
