@@ -360,11 +360,11 @@ textarea
   margin-top: 10px;
   margin-bottom: 10px;  
 }
-.viewallmeetups
+.viewallmeetups,
+.viewtextarea
 {
     text-align: center;
     width: 70%;
-    padding: 7px;
     border-radius: 3px;
     margin-left: auto;
     margin-right: auto;
@@ -372,5 +372,23 @@ textarea
 .imgs
 {
     margin-left: 175px;
+}
+.viewsearchbutton,
+.viewcancelbutton
+{
+    width:10%;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: auto;
 
+}
+.viewsearchbutton
+{
+    float: left;
+    margin-left:35%;
+}
+.viewcancelbutton
+{ 
+float: right;
+margin-right: 40%;
 }
