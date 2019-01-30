@@ -229,7 +229,7 @@ footer h4
 }
 
 /*-----------------------------------------------*/
-/*Sign-up form*/
+/*Sign-up & Sign-in form*/
 /*-----------------------------------------------*/
 .signup-form,
 .signin-form
@@ -271,6 +271,10 @@ input:focus
 {
     background: #fff;
 }
+
+/*-----------------------------------------------*/
+/*User, Admin and Meetup Pages*/
+/*-----------------------------------------------*/
 .user-header,
 .admin-header,
 .page-header
