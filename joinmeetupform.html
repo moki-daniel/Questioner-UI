@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang = "eng">
+    <head>
+        <title> Meetup-Form</title>
+
+<!------------------------------------------------------------------>
+<!---Links to CSS and google fonts--->
+<!------------------------------------------------------------------>
+
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="simple-grid.css">
+        <link rel="stylesheet" type="text/css" href="simple-grid.min.css">
+        <link rel="stylesheet" type="text/css" href="simple-grid.scss">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class = "row">
+
+<!------------------------------------------------------------------>
+<!---Heading--->
+<!------------------------------------------------------------------>
+
+            <h3 class = "meetupformh3"></h3>
+            <h3>Join Meetup Application Form</h3>
+        </div></div>
+        <form>
+
+<!------------------------------------------------------------------>
+<!---Form input fields--->
+<!------------------------------------------------------------------>
+
+            <div class = meetupform>
+                <div class = "fullname-field">
+                    <input type="text" name="full name" placeholder="Enter your Full Name" required>
+                </div>
+                
+                <div class = "emailaddressfield">
+                    <input type="email" name="Email" placeholder="Enter Email Address" required>
+                </div>
+
+                <div class = "residence">
+                    <input type="text" name="Location" placeholder="Enter location" required>
+                </div>
+
+                <div class = "Phone-number">
+                    <input type="Phone-number" name="NUmber" placeholder="Enter Phone-number" required>
+                </div>
+                
+                <div class = "Questionerusername-field">
+                    <input type="username" name="Username" placeholder="Enter Questioner username" required>
+                </div>
+
+<!------------------------------------------------------------------>
+<!---Form select options--->
+<!------------------------------------------------------------------>
+
+                <div class = "Select-Meetup">
+                    <label>Select Meetup to join</label>
+                </div>
+
+                <div class = "Meetupoptions">
+                    <select name="Meetups" id="Meetups">
+                        <option value = "React"> React</option>
+                        <option value = "Javascript"> Javascript</option>
+                        <option value = "HTML"> HTML</option>
+                        <option value = "CSS"> CSS</option>
+                        <option value = "Python"> Python</option>
+                        <option value = "Flask"> Flask</option>
+                </div>
+
+<!------------------------------------------------------------------>
+<!---Join Button--->
+<!------------------------------------------------------------------>
+
+                <div class = "submitrecord">
+                    <input type ="submit" name ="submit" value = "join">
+                </div>
+            </div>
+        </form>
+
+
+
+
+
+    </body>
+</html>

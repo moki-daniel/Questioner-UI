@@ -229,7 +229,7 @@ footer h4
 }
 
 /*-----------------------------------------------*/
-/*Sign-up & Sign-in form*/
+/*Sign-up, Sign-in & Meetup forms*/
 /*-----------------------------------------------*/
 .signup-form,
 .signin-form
@@ -249,7 +249,9 @@ input[type="text"],
 input[type="password"],
 input[type="username"],
 input[type="password"],
-input[type="email"]
+input[type="email"],
+input[type="Phone-number"]
+
 {
     display: block;
     margin-bottom: 25px;
@@ -258,6 +260,7 @@ input[type="email"]
     background: #e6e4d9;
     text-align: center;
 }
+
 input[type="submit"]
 
 {
@@ -266,6 +269,7 @@ input[type="submit"]
     color: #e6e4d9;
     background: #008000;
     text-align: center;
+    margin-top: 25px;
 }
 input:focus
 {
@@ -327,3 +331,33 @@ input:focus
     background-color:#ff0000;
   
 }
+/*-----------------------------------------------*/
+/*Meet-up form*/
+/*-----------------------------------------------*/
+
+.meetupform
+{
+    width: 30%;
+    margin: 0 auto;
+    padding: 1px;
+}
+.meetupformh3
+{
+    margin-top: 20px;
+}
+input,
+select,
+textarea
+{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    text-align: center;
+}
+textarea
+{
+  height: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;  
+}
+
