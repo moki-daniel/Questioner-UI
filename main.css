@@ -16,7 +16,7 @@ html
     text-rendering: optimizeelegibility;
 }
 /*-----------------------------------------------*/
-/*Components reused frequesntly*/
+/*Components reused frequently*/
 /*-----------------------------------------------*/
 .row
 {
@@ -271,7 +271,9 @@ input:focus
 {
     background: #fff;
 }
-.user-header
+.user-header,
+.admin-header,
+.page-header
 {
     width: 1300px;
     height: 80px;
@@ -287,7 +289,8 @@ input:focus
     background: rgb(135, 206,23);;
     float: left;
     margin-right: 100px;
-}.data
+}
+.data
 {
     height: 700px;
     background:#fff;
@@ -317,6 +320,6 @@ input:focus
 }
 .sidebar ul li:hover
 {
-    border-bottom: 2px #ff4500;
-    color:#fff;
+    background-color:#ff0000;
+  
 }
