@@ -249,7 +249,9 @@ input[type="text"],
 input[type="password"],
 input[type="username"],
 input[type="password"],
-input[type="email"]
+input[type="email"],
+input[type="Phone-number"]
+
 {
     display: block;
     margin-bottom: 25px;
@@ -258,6 +260,7 @@ input[type="email"]
     background: #e6e4d9;
     text-align: center;
 }
+
 input[type="submit"]
 
 {
@@ -351,4 +354,12 @@ textarea
   height: 80px;
   margin-top: 10px;
   margin-bottom: 10px;  
+}
+.submitrecord
+{
+   margin-top: 25px; 
+}
+.meetupoption
+{
+    margin-bottom: 25px;
 }
