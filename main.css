@@ -360,4 +360,17 @@ textarea
   margin-top: 10px;
   margin-bottom: 10px;  
 }
+.viewallmeetups
+{
+    text-align: center;
+    width: 70%;
+    padding: 7px;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgs
+{
+    margin-left: 175px;
 
+}
