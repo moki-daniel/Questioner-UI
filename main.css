@@ -327,3 +327,13 @@ input:focus
     background-color:#ff0000;
   
 }
+.meetupform
+{
+    width: 30%;
+    margin: 0 auto;
+    padding: 1px;
+}
+.meetupformh3
+{
+    margin-top: 20px;
+}
