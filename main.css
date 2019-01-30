@@ -16,7 +16,7 @@ html
     text-rendering: optimizeelegibility;
 }
 /*-----------------------------------------------*/
-/*Components reused frequesntly*/
+/*Components reused frequently*/
 /*-----------------------------------------------*/
 .row
 {
@@ -229,7 +229,7 @@ footer h4
 }
 
 /*-----------------------------------------------*/
-/*Sign-up form*/
+/*Sign-up & Sign-in form*/
 /*-----------------------------------------------*/
 .signup-form,
 .signin-form
@@ -271,11 +271,13 @@ input:focus
 {
     background: #fff;
 }
+
 /*-----------------------------------------------*/
-/*User and Admin Dashboard*/
+/*User, Admin and Meetup Pages*/
 /*-----------------------------------------------*/
 .user-header,
-.admin-header
+.admin-header,
+.page-header
 {
     width: 1300px;
     height: 80px;
@@ -322,6 +324,6 @@ input:focus
 }
 .sidebar ul li:hover
 {
-    border-bottom: 2px #ff4500;
-    color:#fff;
+    background-color:#ff0000;
+  
 }
