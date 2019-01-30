@@ -269,6 +269,7 @@ input[type="submit"]
     color: #e6e4d9;
     background: #008000;
     text-align: center;
+    margin-top: 25px;
 }
 input:focus
 {
@@ -355,11 +356,4 @@ textarea
   margin-top: 10px;
   margin-bottom: 10px;  
 }
-.submitrecord
-{
-   margin-top: 25px; 
-}
-.meetupoption
-{
-    margin-bottom: 25px;
-}
+
