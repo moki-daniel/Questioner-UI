@@ -297,7 +297,7 @@ input:focus
 .data
 {
     height: 700px;
-    background:#fff;
+    background:#faf9f9;
     text-align: left;
     font: 50px;
     padding:50px;
@@ -306,7 +306,7 @@ input:focus
 .datah3
 {
     text-align: left;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .datap
 {
@@ -315,7 +315,7 @@ input:focus
 .userphoto
 {
     background: #fff;
-    border-radius: 1000px;
+    border-radius: 500px;
 }
 .sidebar ul li
 {
