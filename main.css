@@ -337,3 +337,18 @@ input:focus
 {
     margin-top: 20px;
 }
+input,
+select,
+textarea
+{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    text-align: center;
+}
+textarea
+{
+  height: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;  
+}
