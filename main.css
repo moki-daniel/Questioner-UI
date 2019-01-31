@@ -363,7 +363,12 @@ textarea
 /*-----------------------------------------------*/
 /*View all meetups page*/
 /*-----------------------------------------------*/
-
+.viewnav
+{
+    background-color: #FFFFFF;
+    position: relative;
+    overflow: hidden;
+}
 .viewallmeetups,
 .viewtextarea
 {
