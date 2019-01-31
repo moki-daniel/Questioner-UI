@@ -368,6 +368,13 @@ textarea
     background-color: #FFFFFF;
     position: relative;
     overflow: hidden;
+    
+}
+.viewmeetupslogo
+{
+    margin-left: 2%;
+    height: 100px;
+    width: 180px;
 }
 .viewallmeetups,
 .viewtextarea
