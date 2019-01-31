@@ -368,13 +368,30 @@ textarea
     background-color: #FFFFFF;
     position: relative;
     overflow: hidden;
-    
+
+}
+.viewnav a
+{
+    margin-top: 20px;
+    float: right;
+    color: #0000FF;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 20px;
+
+}
+.viewnav a:hover 
+{
+    background-color: #FF0000;
+    color: white;
 }
 .viewmeetupslogo
 {
     margin-left: 2%;
     height: 100px;
     width: 180px;
+    
 }
 .viewallmeetups,
 .viewtextarea
