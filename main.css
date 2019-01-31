@@ -383,7 +383,7 @@ textarea
 }
 .viewnav a:hover 
 {
-    background-color: #FF0000;
+    background-color: #008000;
     color:#FFFFFF;
 }
 .viewmeetupslogo
@@ -409,6 +409,12 @@ margin-left: 40%;
 text-decoration: none;
 
 }
+.viewheader a:hover
+{
+    background-color: #008000;
+
+}
+
 .viewp
 {
 text-align: center;
