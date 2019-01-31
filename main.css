@@ -384,7 +384,7 @@ textarea
 .viewnav a:hover 
 {
     background-color: #FF0000;
-    color: white;
+    color:#FFFFFF;
 }
 .viewmeetupslogo
 {
@@ -392,6 +392,27 @@ textarea
     height: 100px;
     width: 180px;
     
+}
+.viewheader
+{
+    height: 150px;
+    width: 100%;
+    background-color: #FF0000;
+
+}
+.viewheader a
+{
+margin-top: 20px;
+color: #FFFFFF;
+font-size: 30px;
+margin-left: 40%;
+text-decoration: none;
+
+}
+.viewp
+{
+text-align: center;
+color: #FFFFFF;
 }
 .viewallmeetups,
 .viewtextarea
