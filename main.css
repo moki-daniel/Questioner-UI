@@ -398,6 +398,7 @@ textarea
     height: 150px;
     width: 100%;
     background-color: #FF0000;
+    margin-bottom: 20px;
 
 }
 .viewheader a
@@ -420,35 +421,25 @@ text-decoration: none;
 text-align: center;
 color: #FFFFFF;
 }
-.viewallmeetups,
-.viewtextarea
+.themeetupsul ul
 {
-    text-align: center;
-    width: 70%;
-    border-radius: 3px;
-    margin-left: auto;
-    margin-right: auto;
+    text-decoration: none;
+    margin-top: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 3px solid rgb(4, 108, 245);
+    width: 75%;
 }
-.img
+.themeetupsul li 
 {
-margin-left: 50px;
-}
-.viewsearchbutton,
-.viewcancelbutton
-{
-    width:10%;
+    display:block;
+    width: 75%;
+    text-decoration: none;
     text-align: center;
-    margin-bottom: 40px;
-    margin-top: auto;
+    border-bottom: 3px solid  rgb(4, 108, 245);
+}
 
-}
-.viewsearchbutton
-{
-    float: left;
-    margin-left:35%;
-}
-.viewcancelbutton
-{ 
-float: right;
-margin-right: 40%;
-}
+
+
+
