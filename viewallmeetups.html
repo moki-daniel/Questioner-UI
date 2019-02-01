@@ -14,48 +14,66 @@
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     </head>
     <body>
+        <div class="viewnav">
+            <img src="logo.png" alt="questioner" class="viewmeetupslogo">
+            <a href="#">Notifications</a>
+            <a href="#">find a meetup</a>
+            <a href="#">All meetups</a>
+        </div>
+    <div class="viewheader">
+        <a href="joinmeetupform.html"> Join a Meetup</a>
+        <p class="viewp">5 available meetups, 2 near your location</p>
+    </div>
 
-<!------------------------------------------------------------------>
-<!---Heading for the page--->
-<!------------------------------------------------------------------>
-        <h3 class="meetupformh3"></h3>
-        <h3>View all Meetups</h3>
+    <div class="viewtextarea">
+        <textarea name="search meetup" placeholder="Enter meetup name to search" ></textarea> 
+    </div>
+    <div class="viewsearchbutton">
+        <input type ="submit" name ="submit" value = "search">
+    </div>
 
-<!------------------------------------------------------------------>
-<!---Text area for the page--->
-<!------------------------------------------------------------------>
-        
-        <div class = "viewtextarea">
-            <textarea name="all meetups" placeholder="enter meetup name to Search and click search button below"></textarea>
-        </div>
-<!------------------------------------------------------------------>
-<!---Buttons--->
-<!------------------------------------------------------------------>
-        <div class = "viewsearchbutton">
-            <input type="submit" value="search">
-        </div>
-        
-        <div class = "viewcancelbutton">
-            <input type="submit" value="cancel">
-        </div>
-<!------------------------------------------------------------------>
-<!---Images with asociated meetup names--->
-<!------------------------------------------------------------------>
-        <div class = "col span-1-of-4 box">
-            <img src = "https://wiredcraft.com/images/posts/wiredcraft-javascript-meetup.jpeg" alt="JS-Kitui" class="imgs">
-            <h3>JS-Kitui Meetup, 250 plus members</h3>
-        </div>
+    <div class="viewsidelist">
+        <ul>
+            <li><a href="#">All meetups</a></li>
+            <li><a href="#">My meetups & suggestions</a></li>
+            <li><a href="#">My meetups</a></li>
+            <li><a href="#">Messages</a></li>
+            <li><a href="#">Notifications</a></li>
+        </ul>
+    </div>
 
 
-        <div class = "col span-1-of-4 box">
-                <img src = "https://pbs.twimg.com/media/DZDmViyW4AA36yP.jpg" alt="Flask-Garissa" class="imgs">
-             <h3>Flask-Mwingi meetup, 200 plus members</h3>
-       </div>
+    <div class="themeetupsul">
+        <ul>
+            <li><a href="#"><strong>Meetup Name:</strong> Javascript-kitui <strong>Time: </strong>10:00am-1.00pm,
+                <strong>Location:</strong> Kitui town, parkside hotel, <strong> <br>Available: </strong>10 confirmed going 
+                <strong>Remainder: </strong>3 slots remaining</a></li>
 
-       <div class = "col span-1-of-4 box">
-            <img src = " https://pbs.twimg.com/media/DIdb2mXW4AAoQ5n.jpg" alt="Python-Nairobi" class="imgs">
-           <h3>Python-Nairobi Meetup, 100 plus members</h3>
+            <li><a href="#"><strong>Meetup Name: </strong>Datascience-Nairobi<strong> Time:</strong> 1400hrs to 1700hrs
+                <strong>Location: </strong>Nairobi Westlands, Pride-in hotel, <strong> Available: </strong>50 confirmed going <strong>
+                Remainder:</strong> 40 slots remaining</a></li>
+
+            <li><a href="#"><strong>Meetup Name:</strong> Python-Wote<strong> Time: </strong>12:00hrs, <strong>Location: 
+            </strong>Nairobi Upperhill, Crowne hotel, <strong> Available:15 confirmed going </strong>
+            Remainder: 20 slots remaining</a></li>
+
+            <li><a href="#"><strong>Meetup Name: </strong>Milk production-Meru<strong> Time:</strong> 11:00hrs, 
+            <strong>Location:</strong> Meru Upperhill, Gakii hotel, <strong> Available: </strong>300 confirmed going
+             <strong> Remainder: </strong>120 slots remaining</a></li>
+
+            <li><a href="#"><strong>Meetup Name: </strong> Beef farming- Kajiado<strong> Time: </strong>14:00hrs, 
+                <strong>Location:</strong> Ongata Rongai: THe barleys<strong> Available:</strong> 150 confirmed going 
+                <strong> Remainder: </strong>50 slots remaining</a></li>
+
+            </ul>
+
+
+
         </div>
-    </body>
-    
-    </html>
+    </div>
+    <div class = "viewfooter">
+            <p>Copyright @ 2019 Questioner inc: by Moki Daniel</p>
+    </div>
+
+</body>
+</html>

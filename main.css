@@ -363,36 +363,146 @@ textarea
 /*-----------------------------------------------*/
 /*View all meetups page*/
 /*-----------------------------------------------*/
+.viewnav
+{
+    background-color: #FFFFFF;
+    position: relative;
+    overflow: hidden;
 
-.viewallmeetups,
-.viewtextarea
-{
-    text-align: center;
-    width: 70%;
-    border-radius: 3px;
-    margin-left: auto;
-    margin-right: auto;
 }
-.imgs
+.viewnav a
 {
-    margin-left: 175px;
+    margin-top: 20px;
+    float: right;
+    color: #0000FF;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 20px;
+
+}
+.viewnav a:hover
+{
+    background-color: #008000;
+    color:#FFFFFF;
+}
+.viewmeetupslogo
+{
+    margin-left: 2%;
+    height: 100px;
+    width: 180px;
+    
+}
+.viewheader
+{
+    height: 150px;
+    width: 100%;
+    background-color: #FF0000;
+    margin-bottom: 30px;
+
+}
+.viewheader a
+{
+margin-top: 20px;
+color: #FFFFFF;
+font-size: 30px;
+margin-left: 40%;
+text-decoration: none;
+
+}
+.viewheader a:hover
+{
+    background-color: #008000;
+
+}
+
+.viewp
+{
+text-align: center;
+color: #FFFFFF;
+}
+.themeetupsul ul
+{
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 3px solid rgb(4, 108, 245);
+    width: 70%;
+    margin-left: 2%;
+    margin-bottom: 10px;
+  
+}
+.themeetupsul li 
+{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    
+    text-align: center;
+    overflow: auto;
+    color: rgba(0, 0, 0, 0.932);
+}
+.themeetupsul li a,
+.viewsidelist li a
+{
+    text-decoration: none;
+}
+.themeetupsul li:hover,
+.viewsidelist li:hover
+{
+  
+    background-color:#FF0000;
+
 }
 .viewsearchbutton,
-.viewcancelbutton
+.viewtextarea
 {
-    width:10%;
-    text-align: center;
-    margin-bottom: 40px;
-    margin-top: auto;
-
+display: inline-block;
+}
+.viewtextarea
+{
+    margin-left: 2%;
+    width: 50%; 
 }
 .viewsearchbutton
 {
-    float: left;
-    margin-left:35%;
+    margin-right:35%;
+    width: 10%;
+    float: right;
+
 }
-.viewcancelbutton
+.themeetupsul ul,
+.viewsidelist ul
+{
+    display: inline-block;    
+}
+.viewsidelist ul 
+{
+    border: 3px solid rgb(4, 108, 245);
+    width: 20%;
+    float: right;
+    margin-top: 100px;
+    margin-right: 5%;
+    margin-left: 2%;
+    list-style-type: none;
+    text-align: center;
+}
+.viewfooter
+{
+    background-color: black; 
+    height: 100px;
+
+}
+.viewfooter p
 { 
-float: right;
-margin-right: 40%;
+    margin-top: 10px;
+   margin-left: 35%;
+   
 }
+
+
+
+
