@@ -440,12 +440,18 @@ color: #FFFFFF;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 100%;
-    text-decoration: none;
+    
     text-align: center;
     overflow: auto;
     color: rgba(0, 0, 0, 0.932);
 }
-.themeetupsul li:hover
+.themeetupsul li a,
+.viewsidelist li a
+{
+    text-decoration: none;
+}
+.themeetupsul li:hover,
+.viewsidelist li:hover
 {
   
     background-color:#FF0000;
@@ -467,6 +473,22 @@ display: inline-block;
     width: 10%;
     float: right;
 
+}
+.themeetupsul ul,
+.viewsidelist ul
+{
+    display: inline-block;    
+}
+.viewsidelist ul 
+{
+    border: 3px solid rgb(4, 108, 245);
+    width: 20%;
+    float: right;
+    margin-top: 100px;
+    margin-right: 5%;
+    margin-left: 2%;
+    list-style-type: none;
+    text-align: center;
 }
 
 
