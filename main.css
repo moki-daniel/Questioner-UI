@@ -381,7 +381,7 @@ textarea
     font-size: 20px;
 
 }
-.viewnav a:hover 
+.viewnav a:hover,
 {
     background-color: #008000;
     color:#FFFFFF;
@@ -398,7 +398,7 @@ textarea
     height: 150px;
     width: 100%;
     background-color: #FF0000;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
 }
 .viewheader a
@@ -424,21 +424,34 @@ color: #FFFFFF;
 .themeetupsul ul
 {
     text-decoration: none;
-    margin-top: 50px;
     list-style-type: none;
+    display: block;
     margin: 0;
     padding: 0;
     border: 3px solid rgb(4, 108, 245);
-    width: 75%;
+    width: 70%;
+    margin-left: 2%;
+    margin-bottom: 10px;
+  
 }
 .themeetupsul li 
 {
-    display:block;
-    width: 75%;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
     text-decoration: none;
     text-align: center;
-    border-bottom: 3px solid  rgb(4, 108, 245);
+    overflow: auto;
+    color: rgba(0, 0, 0, 0.932);
 }
+.themeetupsul li:hover
+{
+  
+    background-color:#FF0000;
+
+}
+
 
 
 
