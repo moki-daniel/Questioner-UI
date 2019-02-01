@@ -490,6 +490,18 @@ display: inline-block;
     list-style-type: none;
     text-align: center;
 }
+.viewfooter
+{
+    background-color: black; 
+    height: 100px;
+
+}
+.viewfooter p
+{ 
+    margin-top: 10px;
+   margin-left: 35%;
+   
+}
 
 
 
