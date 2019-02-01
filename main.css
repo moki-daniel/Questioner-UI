@@ -451,7 +451,23 @@ color: #FFFFFF;
     background-color:#FF0000;
 
 }
+.viewsearchbutton,
+.viewtextarea
+{
+display: inline-block;
+}
+.viewtextarea
+{
+    margin-left: 2%;
+    width: 50%; 
+}
+.viewsearchbutton
+{
+    margin-right:35%;
+    width: 10%;
+    float: right;
 
+}
 
 
 
