@@ -511,6 +511,7 @@ display: inline-block;
     list-style-type: none;
     text-align: center;
 }
+.mymeetupfooter,
 .viewfooter
 {
     background-color: black; 
