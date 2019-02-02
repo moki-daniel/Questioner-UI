@@ -384,7 +384,7 @@ textarea
 /*-----------------------------------------------*/
 /*View all meetups page*/
 /*-----------------------------------------------*/
-.viewnav
+.viewnav,
 {
     background-color: #FFFFFF;
     position: relative;
@@ -436,7 +436,6 @@ text-decoration: none;
     background-color: #008000;
 
 }
-
 .viewp
 {
 text-align: center;
@@ -461,16 +460,17 @@ color: #FFFFFF;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 100%;
-    
     text-align: center;
     overflow: auto;
     color: rgba(0, 0, 0, 0.932);
 }
+.mymeetupsidelist li a,
 .themeetupsul li a,
 .viewsidelist li a
 {
     text-decoration: none;
 }
+.mymeetupsidelist li:hover,
 .themeetupsul li:hover,
 .viewsidelist li:hover
 {
@@ -500,18 +500,26 @@ display: inline-block;
 {
     display: inline-block;    
 }
+.mymeetupsidelist ul,
 .viewsidelist ul 
 {
     border: 3px solid rgb(4, 108, 245);
     width: 20%;
     float: right;
-    margin-top: 100px;
     margin-right: 5%;
     margin-left: 2%;
     list-style-type: none;
     text-align: center;
 }
-.mymeetupfooter,
+.mymeetupsidelist
+{
+    margin-top: 2px;
+
+}
+.viewsidelist ul
+{
+    margin-top: 100px;
+}
 .viewfooter
 {
     background-color: black; 
