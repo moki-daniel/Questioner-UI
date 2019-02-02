@@ -382,9 +382,9 @@ textarea
   margin-bottom: 10px;  
 }
 /*-----------------------------------------------*/
-/*View all meetups page*/
+/*View all meetups & MyMeetups page*/
 /*-----------------------------------------------*/
-.viewnav,
+.viewnav
 {
     background-color: #FFFFFF;
     position: relative;
