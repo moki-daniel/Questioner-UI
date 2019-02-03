@@ -533,7 +533,7 @@ display: inline-block;
 { 
     margin-top: 10px;
    margin-left: 35%;
-   
+
 }
 .mymeetupheader-one,
 .mymeetupheader-two
@@ -550,10 +550,23 @@ width: 70%;
 }
 .mymeetupheader-two
 {
+
 float: right;
 margin-right: 4%;
 width: 20%;
 
+}
+.Javascript-kitui
+{
+   margin-top: 20px; 
+   margin-left: 2%;
+   width: 60%;
+
+}
+.meetup-detailfeature
+.importantsidelist
+{
+display: inline-block;
 }
 
 
