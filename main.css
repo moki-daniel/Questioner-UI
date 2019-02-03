@@ -384,14 +384,16 @@ textarea
 /*-----------------------------------------------*/
 /*View all meetups & MyMeetups page*/
 /*-----------------------------------------------*/
-.viewnav
+.viewnav,
+.meetupdetailsnav
 {
     background-color: #FFFFFF;
     position: relative;
     overflow: hidden;
 
 }
-.viewnav a
+.viewnav a,
+.meetupdetailsnav a
 {
     margin-top: 20px;
     float: right;
