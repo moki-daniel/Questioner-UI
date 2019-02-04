@@ -614,10 +614,21 @@ width:60%
 }
 .attendee-photo img
 {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     position: relative;
     background-position: 50% 50%;
     background-repeat: no repeat;
     background-size: cover;
+}
+.attendee-photo p
+{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.pone
+{
+    font-weight: bold;
 }
