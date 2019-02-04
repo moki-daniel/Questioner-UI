@@ -556,11 +556,21 @@ margin-right: 4%;
 width: 20%;
 
 }
+.Javascript-kitui,
+.attendee
+{   
+   margin-left: 2%;
+}
+
+.attendee
+{
+width: 60%
+}
+
 .Javascript-kitui
 {
-   margin-top: 20px; 
-   margin-left: 2%;
-   width: 60%;
+    margin-top: 20px; 
+    width: 60%;
 
 }
 .meetup-detailfeature
@@ -568,5 +578,23 @@ width: 20%;
 {
 display: inline-block;
 }
+.meetup-detailfeature p
+{
+    margin-left: 2%;
+    width: 60%;
+}
+.attendee
+{
+    
+}
+.comment, .Commenttextarea,.postquestiontextarea,
+.Post-Question,.Add-photo,.photo
+{
+ margin-left: 2%;
 
-
+}
+.Commenttextarea,
+.postquestiontextarea
+{
+width:60%
+}
