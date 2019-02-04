@@ -384,14 +384,16 @@ textarea
 /*-----------------------------------------------*/
 /*View all meetups & MyMeetups page*/
 /*-----------------------------------------------*/
-.viewnav
+.viewnav,
+.meetupdetailsnav
 {
     background-color: #FFFFFF;
     position: relative;
     overflow: hidden;
 
 }
-.viewnav a
+.viewnav a,
+.meetupdetailsnav a
 {
     margin-top: 20px;
     float: right;
@@ -474,12 +476,13 @@ color: #FFFFFF;
 .themeetupsul li:hover,
 .viewsidelist li:hover
 {
-  
+    
     background-color:#FF0000;
 
 }
 .viewsearchbutton,
 .viewtextarea
+
 {
 display: inline-block;
 }
@@ -530,9 +533,132 @@ display: inline-block;
 { 
     margin-top: 10px;
    margin-left: 35%;
-   
+
+}
+/*-----------------------------------------------*/
+/*My meetup-details page*/
+/*-----------------------------------------------*/
+.mymeetupheader-one,
+.mymeetupheader-two
+{
+    display: inline-block;
+    border: 3px solid rgb(4, 108, 245);
+    margin-left: 2%;
+    text-align: center;
+
+}
+.mymeetupheader-one
+{
+width: 70%;
+}
+.mymeetupheader-two
+{
+
+float: right;
+margin-right: 4%;
+width: 20%;
+
+}
+.Javascript-kitui,
+.attendee
+{   
+   margin-left: 2%;
 }
 
+.attendee
+{
+width: 60%
+}
 
+.Javascript-kitui
+{
+    margin-top: 40px; 
+    width: 60%;
 
+}
+.importantsidelist,
+.Javascript-kitui
+{
+display: inline-block;
+}
+.meetup-detailfeature p
+{
+    margin-left: 2%;
+    width: 60%;
+}
+.importantsidelist
+{
+    position: absolute;
+    margin-top: 420px;
+    float: right;
+    width: 25%;
+    margin-right: 5%;
+    border: 3px solid rgb(4, 108, 245);
+    text-align: center;
+}
 
+.comment, .Commenttextarea,.postquestiontextarea,
+.Post-Question,.Add-photo,.photo
+{
+ margin-left: 2%;
+
+}
+.Commenttextarea,
+.postquestiontextarea
+{
+width:60%
+}
+.comment,
+.Post-Question,
+.Add-photo
+{
+    
+    font-weight: bold;
+
+}
+.Add-photo
+{
+    width: 100%;
+
+}
+.Add-photo, .photo
+{
+    display: inline-block;
+}
+.attendee-list
+
+{
+    list-style: none;
+    width: 80%;
+}
+.attendee-list li
+{
+    display: block;
+    float: left;
+    width: 30%;
+}
+.attendee-photo
+{
+    width:100%;
+    margin: 0;
+}
+.attendee-photo img
+{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-position: 50% 50%;
+    background-repeat: no repeat;
+    background-size: cover;
+}
+.attendee-photo p
+{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.pone
+{
+    font-weight: bold;
+}
