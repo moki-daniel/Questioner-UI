@@ -583,12 +583,7 @@ display: inline-block;
     margin-left: 2%;
     width: 60%;
 }
-.attendee
-{
-display: block;
-width: 100%;  
-height: auto;
-}
+
 .comment, .Commenttextarea,.postquestiontextarea,
 .Post-Question,.Add-photo,.photo
 {
@@ -599,4 +594,30 @@ height: auto;
 .postquestiontextarea
 {
 width:60%
+}
+.attendee-list
+
+{
+    list-style: none;
+    width: 80%;
+}
+.attendee-list li
+{
+    display: block;
+    float: left;
+    width: 30%;
+}
+.attendee-photo
+{
+    width:100%;
+    margin: 0;
+}
+.attendee-photo img
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-position: 50% 50%;
+    background-repeat: no repeat;
+    background-size: cover;
 }
