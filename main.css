@@ -585,7 +585,9 @@ display: inline-block;
 }
 .attendee
 {
-    
+display: block;
+width: 100%;  
+height: auto;
 }
 .comment, .Commenttextarea,.postquestiontextarea,
 .Post-Question,.Add-photo,.photo
