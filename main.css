@@ -569,12 +569,12 @@ width: 60%
 
 .Javascript-kitui
 {
-    margin-top: 20px; 
+    margin-top: 40px; 
     width: 60%;
 
 }
-.meetup-detailfeature
-.importantsidelist
+.importantsidelist,
+.Javascript-kitui
 {
 display: inline-block;
 }
@@ -582,6 +582,16 @@ display: inline-block;
 {
     margin-left: 2%;
     width: 60%;
+}
+.importantsidelist
+{
+    position: absolute;
+    margin-top: 420px;
+    float: right;
+    width: 25%;
+    margin-right: 5%;
+    border: 3px solid rgb(4, 108, 245);
+    text-align: center;
 }
 
 .comment, .Commenttextarea,.postquestiontextarea,
@@ -594,6 +604,23 @@ display: inline-block;
 .postquestiontextarea
 {
 width:60%
+}
+.comment,
+.Post-Question,
+.Add-photo
+{
+    
+    font-weight: bold;
+
+}
+.Add-photo
+{
+    width: 100%;
+
+}
+.Add-photo, .photo
+{
+    display: inline-block;
 }
 .attendee-list
 
