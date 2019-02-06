@@ -385,7 +385,8 @@ textarea
 /*View all meetups & MyMeetups page*/
 /*-----------------------------------------------*/
 .viewnav,
-.meetupdetailsnav
+.meetupdetailsnav,
+.userdashboardnav
 {
     background-color: #FFFFFF;
     position: relative;
@@ -393,7 +394,8 @@ textarea
 
 }
 .viewnav a,
-.meetupdetailsnav a
+.meetupdetailsnav a,
+.userdashboardnav a
 {
     margin-top: 20px;
     float: right;
@@ -404,12 +406,14 @@ textarea
     font-size: 20px;
 
 }
-.viewnav a:hover
+.viewnav a:hover,
+.userdashboardnav a:hover
 {
     background-color: #008000;
     color:#FFFFFF;
 }
-.viewmeetupslogo
+.viewmeetupslogo,
+.userdashboardlogo
 {
     margin-left: 2%;
     height: 100px;
