@@ -797,3 +797,17 @@ font-weight: bold;
 {
 color: #FF0000;
 }
+.userdashboardfooter
+{
+    height: 100px;
+    width: 100%;
+    font-family: "high Tower Text";
+    background-color: black;
+    text-align: center;
+    position: relative;
+    clear: both;
+}
+.userdashboardfooter p
+{
+    text-align: center;
+}
