@@ -670,34 +670,45 @@ width:60%
 {
     display: inline-block;
 }
+
 #left
 
 {
 float: left;
 }
 #content
+
 {
-    padding-top: 50px;
+    padding-top: 55px;
     margin-left: 350px;
     font-size: 25px;
 
 }
-#content h4
+#content h4, 
+#Credentials h4
 {
-    color: 	#FF0000;
+    color: 	#008000;
     font-size: 30px;
 }
-#content ul
+#content ul,
+#Credentials ul
+
 {
     list-style: none;
     color: #000000;
     
 }
-#content ul li a
+#content ul li a,
+#Credentials ul li a
 {
     text-decoration: none;
 }
-#content ul li a:hover
+#Credentials ul li a
+{
+    font-size: 25px;
+}
+#content ul li a:hover,
+#Credentials ul li a:hover
 {
     color: #0000FF;
 }
@@ -710,8 +721,11 @@ height: 250px;
 }
 .userheader-two
 {
+    margin-top: 55px;
     float: right;
+    margin-right: 10%;
 }
+
 .Tinah-photo
 {
     border-radius: 300px;
