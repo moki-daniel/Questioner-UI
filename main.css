@@ -385,7 +385,8 @@ textarea
 /*View all meetups & MyMeetups page*/
 /*-----------------------------------------------*/
 .viewnav,
-.meetupdetailsnav
+.meetupdetailsnav,
+.userdashboardnav
 {
     background-color: #FFFFFF;
     position: relative;
@@ -393,7 +394,8 @@ textarea
 
 }
 .viewnav a,
-.meetupdetailsnav a
+.meetupdetailsnav a,
+.userdashboardnav a
 {
     margin-top: 20px;
     float: right;
@@ -404,12 +406,14 @@ textarea
     font-size: 20px;
 
 }
-.viewnav a:hover
+.viewnav a:hover,
+.userdashboardnav a:hover
 {
     background-color: #008000;
     color:#FFFFFF;
 }
-.viewmeetupslogo
+.viewmeetupslogo,
+.userdashboardlogo
 {
     margin-left: 2%;
     height: 100px;
@@ -661,4 +665,149 @@ width:60%
 .pone
 {
     font-weight: bold;
+}
+.Tinah-photo,.userheader-two,
+{
+    display: inline-block;
+}
+
+#left
+
+{
+float: left;
+}
+#content
+
+{
+    padding-top: 55px;
+    margin-left: 350px;
+    font-size: 25px;
+
+}
+#content h4, 
+#Credentials h4
+{
+    color: 	#008000;
+    font-size: 30px;
+}
+#content ul,
+#Credentials ul
+
+{
+    list-style: none;
+    color: #000000;
+    
+}
+#content ul li a,
+#Credentials ul li a
+{
+    text-decoration: none;
+}
+#Credentials ul li a
+{
+    font-size: 25px;
+}
+#content ul li a:hover,
+#Credentials ul li a:hover
+{
+    color: #0000FF;
+}
+.userheader-one
+{
+
+width: 100%;
+height: 250px;
+
+}
+.userheader-two
+{
+    margin-top: 55px;
+    float: right;
+    margin-right: 10%;
+}
+
+.Tinah-photo
+{
+    border-radius: 300px;
+    width: 300px;
+    height: 300px;
+    margin-left: 2%;
+    margin-top: 10px;
+    
+}
+.userdashboardsidebar, 
+.topquestionsul
+{
+    display: inline block;
+}
+.topquestionsh3
+{
+font-size: 25px;
+color: #FF0000;
+}
+.topquestionsul
+{
+    border: 3px solid rgb(4, 108, 245);
+    margin-top: 45px;
+    margin-right: 10%;
+    float: right;
+    padding: 10px;
+    width: 70%;
+}
+.topquestionsul ul
+{
+list-style: none;
+}
+.topquestionsul ul li a
+{
+    text-decoration: none;
+    font-size: 25px;
+}
+.upvote,.downvote,.topquestioncomment
+{
+width: 18%;
+display: inline-block;
+text-align: center;
+}
+.upvote
+{
+    margin-left: 5%;
+}
+.userdashboardsidebar
+{
+    margin-top: 100px;  
+    margin-left: 5%;
+}
+.userdashboardsidebar h4
+{
+    color: #0000FF;
+}
+.userdashboardsidebar ul
+{
+list-style: none;
+}
+.userdashboardsidebar ul li a
+{
+list-style: none;
+text-decoration: none;
+padding: 15px;
+font-weight: bold;
+}
+.userdashboardsidebar ul li a:hover
+{
+color: #FF0000;
+}
+.userdashboardfooter
+{
+    height: 100px;
+    width: 100%;
+    font-family: "high Tower Text";
+    background-color: black;
+    text-align: center;
+    position: relative;
+    clear: both;
+}
+.userdashboardfooter p
+{
+    text-align: center;
 }
