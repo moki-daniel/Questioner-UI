@@ -111,7 +111,7 @@ margin-top: 100px;
 border: 3px solid rgb(121,35,3);
 }
 .btn:link,
-.btn:visited,
+.btn:visited
 {
     display: inline-block;
     padding: 10 30px;
@@ -386,7 +386,8 @@ textarea
 /*-----------------------------------------------*/
 .viewnav,
 .meetupdetailsnav,
-.userdashboardnav
+.userdashboardnav,
+.adminpanelnav
 {
     background-color: #FFFFFF;
     position: relative;
@@ -395,7 +396,8 @@ textarea
 }
 .viewnav a,
 .meetupdetailsnav a,
-.userdashboardnav a
+.userdashboardnav a,
+.adminpanelnav a
 {
     margin-top: 20px;
     float: right;
@@ -407,13 +409,15 @@ textarea
 
 }
 .viewnav a:hover,
-.userdashboardnav a:hover
+.userdashboardnav a:hover,
+.adminpanelnav a:hover
 {
     background-color: #008000;
     color:#FFFFFF;
 }
 .viewmeetupslogo,
-.userdashboardlogo
+.userdashboardlogo,
+.adminpanellogo
 {
     margin-left: 2%;
     height: 100px;
@@ -666,7 +670,7 @@ width:60%
 {
     font-weight: bold;
 }
-.Tinah-photo,.userheader-two,
+.Tinah-photo,.userheader-two
 {
     display: inline-block;
 }
