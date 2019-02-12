@@ -815,3 +815,26 @@ color: #FF0000;
 {
     text-align: center;
 }
+.adminpanelsidebar
+{
+    width: 25%;
+    background-color: #f3f0f0;
+}
+.adminpanelsidebar ul
+{
+    list-style-type: none;
+
+}
+.adminpanelsidebar ul li
+{
+    padding: 30px;
+    
+}
+.adminpanelsidebar ul li a
+{
+    text-decoration: none;
+    display: block;
+    order: 3px solid rgb(4, 108, 245);
+
+
+}
