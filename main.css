@@ -452,18 +452,20 @@ text-align: center;
 color: #FFFFFF;
 }
 .themeetupsul ul
+
 {
     text-decoration: none;
     list-style-type: none;
     display: block;
     margin: 0;
     padding: 0;
-    border: 3px solid rgb(4, 108, 245);
-    width: 70%;
+    border: 3px solid rgb(4, 108, 245); 
+    
+width: 70%;
     margin-left: 2%;
     margin-bottom: 10px;
   
-}
+} 
 .themeetupsul li 
 {
     display: block;
@@ -815,26 +817,31 @@ color: #FF0000;
 {
     text-align: center;
 }
-.adminpanelsidebar
-{
-    width: 25%;
-    background-color: #f3f0f0;
-}
 .adminpanelsidebar ul
 {
-    list-style-type: none;
-
-}
-.adminpanelsidebar ul li
-{
-    padding: 30px;
-    
+    height: 100%;
+    width: 20%;
+    background-color: #f3f0f0;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    overflow-x: hidden;
+    padding: 20px;
+    list-style: none;
+   
 }
 .adminpanelsidebar ul li a
 {
+
     text-decoration: none;
     display: block;
-    order: 3px solid rgb(4, 108, 245);
-
-
+    text-align: left;
+    margin-bottom: 2%;
+    font-weight: bold;
+  
+}
+.adminpanelsidebar ul li a:hover
+{
+    background-color: green;
+    color: white;
 }
