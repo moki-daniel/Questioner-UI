@@ -845,3 +845,7 @@ color: #FF0000;
     background-color: green;
     color: white;
 }
+.content-area
+{
+    margin-left: 20%;
+}
