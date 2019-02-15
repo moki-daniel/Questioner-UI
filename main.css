@@ -862,3 +862,22 @@ font-size: 1rem;
 margin-bottom: 10px;
 }
 .areas
+{
+
+}
+.area1,
+.area2
+{
+width: 45%;
+
+padding: 15px;
+}
+.area1
+{
+    float: left;
+}
+.area2
+{
+float: right;
+}
+
