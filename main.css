@@ -845,7 +845,7 @@ color: #FF0000;
     background-color: green;
     color: white;
 }
-.content-area
+.contentarea
 {
     margin-left: 20%;
     padding: 15px;
@@ -872,11 +872,11 @@ width: 45%;
 
 padding: 15px;
 }
-.area1
+.adminarea1
 {
     float: left;
 }
-.area2
+.adminarea2
 {
 float: right;
 }
