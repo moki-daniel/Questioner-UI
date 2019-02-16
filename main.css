@@ -842,24 +842,35 @@ color: #FF0000;
 }
 .adminpanelsidebar ul li a:hover
 {
-    background-color: green;
-    color: white;
+    background-color: #008000;
+    color: #FFFFFF;
 }
 .contentarea
 {
     margin-left: 20%;
     padding: 15px;
 }
+.contentheader
+{
+    background-color: #808080;
+}
+.adminh3,
+.adminp1
+{
+    color: 	#FF0000;
+}
+
 .adminh3
 {
-font-weight: 500px;
+font-weight: 300px;
 margin-bottom: 10px;
 }
 
-.adminp
+.adminp1
 {
-font-size: 1rem;
-margin-bottom: 10px;
+text-align: center;
+font-weight: bold;
+margin-bottom: 20px;
 }
 .adminarea1,
 .adminarea2
@@ -867,17 +878,19 @@ margin-bottom: 10px;
 
 border: 3px solid rgb(4, 108, 245);
 padding: 15px;
+
 }
 .adminarea1
 {
 margin-left: 3%;
-    float: left;
-    width: 30%;
+float: left;
+text-align: center;
+width: 30%;
 }
 .adminarea2
 {
-    width: 60%;
-    margin-right: 3%;
+width: 60%;
+margin-right: 3%;
 float: right;
 }
 .adminphoto1
