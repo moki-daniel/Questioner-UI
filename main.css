@@ -861,23 +861,29 @@ margin-bottom: 10px;
 font-size: 1rem;
 margin-bottom: 10px;
 }
-.areas
+.adminarea1,
+.adminarea2
 {
 
-}
-.area1,
-.area2
-{
-width: 45%;
-
+border: 3px solid rgb(4, 108, 245);
 padding: 15px;
 }
 .adminarea1
 {
+margin-left: 3%;
     float: left;
+    width: 30%;
 }
 .adminarea2
 {
+    width: 60%;
+    margin-right: 3%;
 float: right;
 }
-
+.adminphoto1
+{
+    border-radius: 300px;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;  
+}
