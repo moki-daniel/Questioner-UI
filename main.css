@@ -111,7 +111,7 @@ margin-top: 100px;
 border: 3px solid rgb(121,35,3);
 }
 .btn:link,
-.btn:visited,
+.btn:visited
 {
     display: inline-block;
     padding: 10 30px;
@@ -386,7 +386,8 @@ textarea
 /*-----------------------------------------------*/
 .viewnav,
 .meetupdetailsnav,
-.userdashboardnav
+.userdashboardnav,
+.adminpanelnav
 {
     background-color: #FFFFFF;
     position: relative;
@@ -395,7 +396,8 @@ textarea
 }
 .viewnav a,
 .meetupdetailsnav a,
-.userdashboardnav a
+.userdashboardnav a,
+.adminpanelnav a
 {
     margin-top: 20px;
     float: right;
@@ -407,13 +409,15 @@ textarea
 
 }
 .viewnav a:hover,
-.userdashboardnav a:hover
+.userdashboardnav a:hover,
+.adminpanelnav a:hover
 {
     background-color: #008000;
     color:#FFFFFF;
 }
 .viewmeetupslogo,
-.userdashboardlogo
+.userdashboardlogo,
+.adminpanellogo
 {
     margin-left: 2%;
     height: 100px;
@@ -448,18 +452,20 @@ text-align: center;
 color: #FFFFFF;
 }
 .themeetupsul ul
+
 {
     text-decoration: none;
     list-style-type: none;
     display: block;
     margin: 0;
     padding: 0;
-    border: 3px solid rgb(4, 108, 245);
-    width: 70%;
+    border: 3px solid rgb(4, 108, 245); 
+    
+width: 70%;
     margin-left: 2%;
     margin-bottom: 10px;
   
-}
+} 
 .themeetupsul li 
 {
     display: block;
@@ -666,7 +672,7 @@ width:60%
 {
     font-weight: bold;
 }
-.Tinah-photo,.userheader-two,
+.Tinah-photo,.userheader-two
 {
     display: inline-block;
 }
@@ -712,6 +718,9 @@ float: left;
 {
     color: #0000FF;
 }
+/*-----------------------------------------------*/
+/*Userdashboard page*/
+/*-----------------------------------------------*/
 .userheader-one
 {
 
@@ -810,4 +819,91 @@ color: #FF0000;
 .userdashboardfooter p
 {
     text-align: center;
+}
+
+/*-----------------------------------------------*/
+/*Admin Panel*/
+/*-----------------------------------------------*/
+.adminpanelsidebar ul
+{
+    height: 80%;
+    width: 20%;
+    background-color: #f3f0f0;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    overflow-x: hidden;
+    padding: 20px;
+    list-style: none;
+   
+}
+.adminpanelsidebar ul li a
+{
+
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin-bottom: 2%;
+    font-weight: bold;
+  
+}
+.adminpanelsidebar ul li a:hover
+{
+    background-color: #008000;
+    color: #FFFFFF;
+}
+.contentarea
+{
+    margin-left: 20%;
+    padding: 15px;
+}
+.contentheader
+{
+    background-color: #808080;
+}
+.adminh3,
+.adminp1
+{
+    color: 	#FF0000;
+}
+
+.adminh3
+{
+font-weight: 300px;
+margin-bottom: 10px;
+}
+
+.adminp1
+{
+text-align: center;
+font-weight: bold;
+margin-bottom: 20px;
+}
+.adminarea1,
+.adminarea2
+{
+
+border: 3px solid rgb(4, 108, 245);
+padding: 15px;
+
+}
+.adminarea1
+{
+margin-left: 3%;
+float: left;
+text-align: center;
+width: 30%;
+}
+.adminarea2
+{
+width: 60%;
+margin-right: 3%;
+float: right;
+}
+.adminphoto1
+{
+    border-radius: 300px;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;  
 }

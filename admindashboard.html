@@ -14,42 +14,90 @@
         <link rel="stylesheet" type="text/css" href="main.css">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     </head>
-    <body>
 
 <!------------------------------------------------------------------>
-<!---Header DIV--->
+<!---Navigation bar DIV--->
 <!------------------------------------------------------------------>
 
-        <div class="admin-header">
-            <img src="userphoto.jpeg" alt= "upload" class="userphoto"><br><p>click to upload photo</p>
-        </div>
+<div class="adminpanelnav">
+    <div class="adminpanelnav">
+        <img src="logo.png" alt="questioner" class="adminpanellogo">
+        <a href="#">Notifications</a>
+        <a href="#">All Meetups</a>
+        <a href="#">All users</a>
+            
+</div>
+</div>
+
+
+    
 
 <!------------------------------------------------------------------>
 <!---Sidebar DIV--->
 <!------------------------------------------------------------------>
 
-        <div class="sidebar">
+        <div class="adminpanelsidebar">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#">Create a Meetup</a></li>
                 <li><a href="#">Delete a Meetup</a></li>
                 <li><a href="#">Add a user</a></li>
-                <li><a href="#">Log-out</a></li>
+                <li><a href="#">Delete a user</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="index.html">Log-out</a></li>
             </ul>
         </div>
 
 <!------------------------------------------------------------------>
-<!---Data DIV--->
+<!---Content area section--->
 <!------------------------------------------------------------------>
 
-        <div class="data"><br>
-            <h3 class = "datah3">Dear user,</h3>
-            <p class="datap">Kindly use Admin-dashboard to;<br>
-            i) Create a Meetup<br>
-            ii) Delete a meetup<br>
-            iii) Add a user<br>
-            iv) Logout to the home-page
-        </p>
-        </div>
-    </body>
-    </html>
+<section class="contentarea">
+<div class="contentheader">
+    <h3 class="adminh3">Admin Panel</h3>
+    <p class="adminp1">My Questioner Admin page</p>
+</div>
+
+<!------------------------------------------------------------------>
+<!---content area section one--->
+<!------------------------------------------------------------------>
+
+    <div class="adminarea1">
+            <img src="Tinah.jpg" alt="Tinah Moki" class="adminphoto1">
+            <p><strong>Name:</strong><br>Tinah Moki</p>
+            <p><strong>Current Position:</strong><br>Front-end Developer</p>
+            <p><strong>Known Languages:</strong><br>Html, CSS, Javascript </p>
+    </div>
+
+<!------------------------------------------------------------------>
+<!---content area section two--->
+<!------------------------------------------------------------------>
+
+
+    <div class="adminarea2">
+        <h5>Tasks</h5>
+        <p><strong>Done</strong></p>
+        <p>i) Added users Lesley and Jersley</p>
+        <p>ii) Created Javascript-Kitui Meetup </p>
+        <p><strong>Pending</strong></p>
+        <p>i) Add user Job</p>
+        <p>ii) Create meetup Flask-Garrisa </p>
+        <p><strong>Requested for Assist</strong></p>
+        <p>i) Connect all added users to the postgrel DB (DB Admin - Irene Kisonge)</p>
+        <p>ii) Create add a user API (Backend engineer - Mailu)</p>
+    </div>
+
+
+</section>
+
+<!------------------------------------------------------------------>
+<!---Footer DIV--->
+<!------------------------------------------------------------------>
+
+<div class = "userdashboardfooter">
+    <p>Copyright @ 2019 Questioner inc: by Moki Daniel</p>
+</div>
+
+</body>
+    
+</html>
