@@ -160,14 +160,14 @@ header
 /*-----------------------------------------------*/
 .logo
 {
-    height: 200px;
-    width: 12%;
-    text-align: left;
+    height: 150px;
+    width: 10%;
     float: left;
     position: absolute;
+    color: rgb(1,1, 245);
     top: 0;
     left: 0;
-    color: rgb(1,1, 245)
+    
 }
 .main-nav
 {
