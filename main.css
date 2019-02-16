@@ -99,6 +99,35 @@ margin-top: 100px;
 /*-----------------------------------------------*/
 /*Buttons for the header section*/
 /*-----------------------------------------------*/
+.headerpt2
+{
+    margin-left: 23%;
+}
+.btn-one
+{
+    margin-left: 3%;
+}
+.headerpt2,
+.btn-one,
+.btn-two
+{
+    display: inline-block;
+}
+.btn-one
+{
+    width: 5%;
+}
+.btn-two
+{
+    width: 10%;
+}
+
+.btn-one,
+.btn-two
+{
+    height: 3%;
+    font-size: 20px;
+}
 .btn:hover,
 .btn:active
 {
@@ -167,7 +196,7 @@ header
     color: rgb(1,1, 245);
     top: 0;
     left: 0;
-    
+
 }
 .main-nav
 {
