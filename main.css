@@ -866,17 +866,17 @@ color: #FF0000;
     list-style: none;
    
 }
-.adminpanelsidebar ul li a
+.adminpanelsidebar ul button
 {
 
     text-decoration: none;
     display: block;
     text-align: left;
-    margin-bottom: 2%;
+    margin-bottom: 8%;
     font-weight: bold;
   
 }
-.adminpanelsidebar ul li a:hover
+.adminpanelsidebar ul button:hover
 {
     background-color: #008000;
     color: #FFFFFF;
