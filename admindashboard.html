@@ -13,8 +13,10 @@
         <link rel="stylesheet" type="text/css" href="simple-grid.scss">
         <link rel="stylesheet" type="text/css" href="main.css">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <script src="deletemeetup.js"></script>
+       
     </head>
-
+<body>
 <!------------------------------------------------------------------>
 <!---Navigation bar DIV--->
 <!------------------------------------------------------------------>
@@ -37,17 +39,27 @@
 <!------------------------------------------------------------------>
 
         <div class="adminpanelsidebar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
+           <ul>
+               <button>Home</button>
+               <button>Create a Meetup</button>
+               <button id="deletebutton" onclick="delmeetup()">Delete a Meetup</button>
+               <button>Add a user</button>
+               <button>Settings</button>
+               <button>Log-out</button>
+
+
+
+                <!--<li><a href="index.html">Home</a></li>
                 <li><a href="#">Create a Meetup</a></li>
                 <li><a href="#">Delete a Meetup</a></li>
                 <li><a href="#">Add a user</a></li>
                 <li><a href="#">Delete a user</a></li>
                 <li><a href="#">Settings</a></li>
-                <li><a href="index.html">Log-out</a></li>
+                <li><a href="index.html">Log-out</a></li>--> 
             </ul>
+            
         </div>
-
+ 
 <!------------------------------------------------------------------>
 <!---Content area section--->
 <!------------------------------------------------------------------>

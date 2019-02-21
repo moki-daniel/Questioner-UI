@@ -1,5 +1,10 @@
-function Value() 
-{
-    var val = prompt("enter meetup name to delete: ", "name" );
-    document.write("You entered : " + val);
-}
+function delmeetup() {
+        var meetupname = prompt("Enter meetupname to delete", "e.g python-Nairobi");
+        if (meetupname != null) {
+          document.getElementById("deletebutton").innerHTML =
+          "Hello Tinah confirm delete of " + meetupname;
+        }
+      }
+
+  
+
