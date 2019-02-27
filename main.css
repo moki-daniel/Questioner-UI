@@ -958,3 +958,7 @@ float: right;
 {
     text-align: center;
 }
+.adminpanelsidebar a
+{
+    text-decoration: none;
+}
