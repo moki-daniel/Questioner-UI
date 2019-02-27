@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+<!------------------------------------------------------------------>
+<!---Links to CSS and google fonts--->
+<!------------------------------------------------------------------>
+        <title>Create a meetup</title>
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="simple-grid.css">
+        <link rel="stylesheet" type="text/css" href="simple-grid.min.css">
+        <link rel="stylesheet" type="text/css" href="simple-grid.scss">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    </head>
+
+<!------------------------------------------------------------------>
+<!---Navigation bar--->
+<!------------------------------------------------------------------>
+    <div class="adminpanelnav">
+        <div class="adminpanelnav">
+            <img src="logo.png" alt="questioner" class="adminpanellogo">
+            <a href="#">Notifications</a>
+            <a href="viewallmeetups.html">All Meetups</a>
+            <a href="#">All users</a>
+        </div>
+    </div>
+
+<!------------------------------------------------------------------>
+<!---Heading for the form--->
+<!------------------------------------------------------------------>
+
+        <h3 class = "meetupformh3"></h3>
+        <h3>Create a Meetup</h3>
+    </div>
+<!------------------------------------------------------------------>
+<!---Fields, text-area and labels for the page--->
+<!------------------------------------------------------------------>
+    <form>
+        <div class = "meetupform">
+            <div class = "meetupname">
+                <input type="text" name="meetup name" placeholder="Meetup name" required>
+            </div>
+            
+            <div class = "hosted-by">
+                <input type="text" name="hosted-by" placeholder="Hosted by" required>
+            </div>
+            
+            <div class = "meetuplocation">
+                <input type="text" name="meetup location" placeholder="Meetup location" required>
+            </div>
+            <div class="startlabel">
+                <label><strong>Start time</strong></label>
+            </div>
+
+            <div class = "starttime">
+                <input type="time" name="meetuptime" placeholder="Start-time-time" required>
+            </div>
+
+            <div class="endlabel">
+                <label><strong>End time</strong></label>
+            </div>
+
+            <div class = "endtime">
+                <input type="time" name="meetuptime" placeholder="End-time" required>
+            </div>
+            <div class="Meetupreason">
+                <label><strong>Reason for meetup</strong></label>
+            </div>
+            <div class = "Reasonformeetup">
+                    <textarea name="Comment" class="Createmeetuptextarea" ></textarea>
+            </div>
+            <div class = "submitrecord">
+                <input type ="submit" name ="submit" value = "Create">
+            </div>
+        </form>
+    </div>
+<!------------------------------------------------------------------>
+<!-----Footer for the page------->
+<!------------------------------------------------------------------>
+    <div class = "createmeetupfooter">
+        <p>Copyright @ 2019 Questioner inc: by Moki Daniel</p>
+    </div>
+
+</html>
