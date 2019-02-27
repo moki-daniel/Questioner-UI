@@ -936,3 +936,25 @@ float: right;
     height: 200px;
     margin-top: 10px;  
 }
+/*-----------------------------------------------*/
+/*Create a meetup*/
+/*-----------------------------------------------*/
+.meetupformh3
+{
+   margin-bottom: 10px; 
+}
+.Createmeetuptextarea
+{
+    padding: 50px;   
+}
+.createmeetupfooter
+{
+    margin-top: 15px;
+    background-color: rgb(3, 3, 3);
+    width: 100%;
+    height: 15%;
+}
+.createmeetupfooter p
+{
+    text-align: center;
+}
