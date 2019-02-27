@@ -9,22 +9,22 @@
         <link rel="stylesheet" type="text/css" href="main.css">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     </head>
-    <div class="createmeetupnav">
-        <div class="createmeetupnav">
-            <img src="logo.png" alt="questioner" class="createmeetuplogo">
+    <div class="adminpanelnav">
+        <div class="adminpanelnav">
+            <img src="logo.png" alt="questioner" class="adminpanellogo">
             <a href="#">Notifications</a>
             <a href="#">All Meetups</a>
             <a href="#">All users</a>
         </div>
     </div>
-    <div class = "row">
+
         <h3 class = "meetupformh3"></h3>
         <h3>Create a Meetup</h3>
     </div>
     <form>
         <div class = meetupform>
             <div class = "meetupname">
-                <input type="text" name="meetup name" placeholder="Enter meetup name" required>
+                <input type="text" name="meetup name" placeholder="Meetup name" required>
             </div>
             
             <div class = "hosted-by">
@@ -32,19 +32,28 @@
             </div>
             
             <div class = "meetuplocation">
-                <input type="text" name="meetup location" placeholder="Enter Location for the meetup" required>
+                <input type="text" name="meetup location" placeholder="Meetup location" required>
+            </div>
+            <div class="startlabel">
+                <label><strong>Start time</strong></label>
             </div>
 
-            <div class = "Meetup-time">
-                <label>Enter meetup time</label>
+            <div class = "starttime">
+                <input type="time" name="meetuptime" placeholder="Start-time-time" required>
             </div>
-            
-            <div class = "meetuptime">
-                <input type="time" name="meetuptime" placeholder="Enter Meetup-time" required>
+
+            <div class="endlabel">
+                <label><strong>End time</strong></label>
             </div>
-            
+
+            <div class = "endtime">
+                <input type="time" name="meetuptime" placeholder="End-time" required>
+            </div>
+            <div class="Meetupreason">
+                <label><strong>Reason for meetup</strong></label>
+            </div>
             <div class = "Reasonformeetup">
-                    <textarea name="Comment" placeholder="Reason for the Meetup" class="Commenttextarea" ></textarea>
+                    <textarea name="Comment" class="Commenttextarea" ></textarea>
             </div>
             <div class = "submitrecord">
                 <input type ="submit" name ="submit" value = "Create">
