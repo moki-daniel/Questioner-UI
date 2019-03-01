@@ -948,7 +948,8 @@ float: right;
     padding: 50px;   
 }
 .createmeetupfooter,
-.joinmeetupfooter
+.joinmeetupfooter,
+.signupformfooter
 {
     margin-top: 15px;
     background-color: rgb(3, 3, 3);
@@ -956,7 +957,8 @@ float: right;
     height: 15%;
 }
 .createmeetupfooter p,
-.joinmeetupfooter p
+.joinmeetupfooter p,
+.signupformfooter p
 {
     text-align: center;
 }
