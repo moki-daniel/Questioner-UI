@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lan = "eng">
     <head>
-        <title>Sign-up</title>
-
+        <title>Sign-in</title>
+<!------------------------------------------------------------------>
+<!---Links to CSS and google fonts--->
+<!------------------------------------------------------------------>
         <link rel="stylesheet" type="text/css" href="normalize.css">
         <link rel="stylesheet" type="text/css" href="simple-grid.css">
         <link rel="stylesheet" type="text/css" href="simple-grid.min.css">
@@ -12,14 +14,35 @@
 
         </head>
         <body>
-        <div class ="signin-form">
+<!------------------------------------------------------------------>
+<!---Navigation bar--->
+<!------------------------------------------------------------------>
+            <div class="userdashboardnav">
+                <div class="userdashboardnav">
+                    <img src="logo.png" alt="questioner" class="userdashboardlogo">
+                    <a href="#">Notifications</a>
+                    <a href="joinmeetupform.html">Add a meetup</a>
+                    <a href="#">My meetups</a>
+                </div>
+            </div>
+
+<!------------------------------------------------------------------>
+<!---Heading for the form--->
+<!------------------------------------------------------------------>
+            <div class ="signin-form">
                 <h3 class ="signinh3">Sign-in Form</h3>
             </div>
-            <form class = signin-form>
+
+<!------------------------------------------------------------------>
+<!---input fields for the form--->
+<!------------------------------------------------------------------>
             
-                    <input type = "text" placeholder ="Enter username"/>
-                    <input type = "password" placeholder ="Enter password"/>
-                    <input type = "submit" value ="sign-in"/>
-                    </form>
+            <form class = signin-form>
+                <input type = "text" placeholder ="Enter username"/>
+                <input type = "password" placeholder ="Enter password"/>
+                <input type = "submit" value ="sign-in"/>
+            </form>
+        
+        
         </body>
         </html>
